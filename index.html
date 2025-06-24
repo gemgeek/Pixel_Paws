@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tilly's Game</title>
+    <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+      <h1>Pixel Paws</h1>
+      <div class="pet-container">
+  <div class="pet" id="pet1" onclick="selectPet(1)">
+    <div class="emoji">&#128049;</div>
+    <p>Saturation Level: <span id="hunger1">100</span>%</p>
+    <p id="message1"></p>
+  </div>
+  <div class="pet" id="pet2" onclick="selectPet(2)">
+    <div class="emoji">&#128004;</div> 
+    <p>Saturation Level: <span id="hunger2">100</span>%</p>
+    <p id="message2"></p>
+  </div>
+</div>
+<div class="treat-container">
+  <div class="treat-wrapper">
+    <div class="emoji treat" onclick="feedPet(1)" id="treat1">🦴</div>
+  </div>
+  <div class="treat-wrapper">
+    <div class="emoji treat" onclick="feedPet(5)" id="treat2">🍰</div>
+  </div>
+</div>
+       <script src="script.js"></script>
+      </body>
+    </html>
