@@ -14,4 +14,4 @@ Welcome to **Pixel Paws**, a charming pet simulation game where you can interact
 - Cute animations and pet emojis 🐶🐱
 
 ## 📁 Screenshot
-
+<img src="https://github.com/gemgeek/gems-digital-journal/blob/main/assets/Pixel%20Paws.png" alt="screenshot">
